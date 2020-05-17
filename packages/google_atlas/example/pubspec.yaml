@@ -1,16 +1,19 @@
-name: example
-description: A new Flutter project.
+name: google_atlas_example
+description: Example app using google atlas
 
-version: 1.0.0+1
+version: 1.1.0
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
-    sdk: flutter  
+    sdk: flutter
+  atlas: 0.7.0
   google_atlas:
     path: ../
+  atlas_demo:
+    path: ../../atlas_demo
 
 flutter:
   uses-material-design: true
